@@ -20,12 +20,14 @@ import Maps from './Components/Maps';
 import TernaryPractice from './Components/TernaryPractice';
 import User from './Components/User';
 import Reset from './Components/Reset';
+import Greeting from './Components/Greeting';
 
 function App() {
   return (
     <div className="App">
-      <User />
-      <Reset />
+      <Greeting />
+      {/* <User /> */}
+      {/* <Reset /> */}
       {/* <TernaryPractice /> */}
       {/* <Maps /> */}
       {/* <Forms /> */}
